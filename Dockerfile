@@ -1,5 +1,5 @@
-FROM victorhcm/opencv::3.2.0-python3.4
-RUN pip install numpy pandas matplotlib
+FROM victorhcm/opencv:3.2.0-python3.4
+RUN pip3 install numpy pandas matplotlib  jupy--upgrade tensorflow
 EXPOSE 8888
 EXPOSE 6006
 
