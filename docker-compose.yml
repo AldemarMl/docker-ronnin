@@ -1,0 +1,10 @@
+version: '2'
+services:
+  
+  tensor:
+    image: tensorflow/tensorflow:1.0.1
+    volumes:
+      - ./tf:/tf
+    ports:
+      - "6006:6006"
+    
