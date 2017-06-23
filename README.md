@@ -1,5 +1,5 @@
 # docker-ronnin
-docker + opencv + tensorflow + scikitlearn
+docker + opencv + tensorflow + scikitlearn + keras
 
 ## 1 crear imagen
 docker build -t ronnin .
